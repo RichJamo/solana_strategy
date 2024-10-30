@@ -1,9 +1,9 @@
 use anchor_lang::prelude::*;
 
-declare_id!("YourProgramIDHere");
+declare_id!("25CLGmMNTKy9xKHpREMfuCgUK3p9ZdhPP8ETxFKoMFtE");
 
 #[program]
-pub mod my_anchor_project {
+pub mod solana_strategy {
     use super::*;
 
     pub fn initialize(ctx: Context<Initialize>, data: u64) -> Result<()> {
